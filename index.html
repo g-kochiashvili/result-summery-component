@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" >
-        <link rel="stylesheet" href="reset.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
 
-    <body>
-        <div class="BlueComponent">
-            <p class="YourResult"> Your Result</p>
-            <div class="BlueCircle">
-                <h1 class="76">
-                    76
-                </h1>
-                <p class="fromNumber">
-                    of 100
-                </p>
+<body>
+    <div class="resultComponents">
+        <p class="yourResult">Your Result</p>
+        <div class="pointResult">
+            <img src="./img/Oval.svg">
+            <div class="point">
+                <div class="pointChild">
+                    <h1>76</h1>
+                    <p>of 100</p>
+                </div>
             </div>
-            <h1 class="rating">
-                Great
-            </h1>
-            <p class="description">
-                Your performance exceed 65% of the people conducting the test here!
-            </p>
         </div>
 
-        <div class= "result">
-            <p class="Summery">Summery</p>
+        <h1 class="Great">Great</h1>
+        <p class="text">Your performance exceed 65% of the people conducting the test here!</p>
+    </div>
 
-            <div class="reactionFrame">
-                <img src="./img/iconoir_flash.svg" 
-                     alt="ReactionIcon"
-                     class="ReactionIcon">
-                <p class="reaction">Reaction</p>
-                <p class="ReactionPoint">80 / 100</p>
+
+
+    <div class="test">
+        <p class="Summary">Summary</p>
+        <div class="reactionDiv">
+            <div class="reaction">
+                <img src="./img/iconoir_flash.svg">
+                <p>Reaction</p>
             </div>
-    
-            <div class="MemoryFrame">
-                <img src="./img/iconoir_brain.svg"
-                     alt="MemoryIcon"
-                     class="MemoryIcon">
-                <p class="memory">Memory</p>
-                <p class="MemoryPoint">92 / 100</p>
-            </div>
-    
-            <div class="VerbalFrame">
-                <img src="./img/iconoir_chat-remove.svg"
-                     alt="VerbalIcon"
-                     class="VerbalIcon">
-                <p class="verbal">Verbal</p>
-                <p class="VerbalPoint">61 / 100</p>
-            </div>
-    
-            <div class="VisualFrame">
-                <img src="./img/iconoir_eye-empty.svg"
-                     alt="VisualIcon"
-                     class="VisualIcon">
-                <p class="visual">Visual</p>     
-                <p class="VisualPoint">73 / 100</p>
-            </div>
-    
-            <button>continue</button>
+            <p class="reactionPoint">80 <span>/ 100</span></p>
         </div>
 
-       
+        <div class="memoryDiv">
+            <div class="memory">
+                <img src="./img/iconoir_brain.svg">
+                <p>Memory</p>
+            </div>
+            <p class="memoryPoint">92 <span>/ 100</span></p>
+        </div>
 
-    </body>
+        <div class="verbalDiv">
+            <div class="verbal">
+                <img src="./img/iconoir_chat-remove.svg">
+                <p>Verbal</p>
+            </div>
+            <p class="verbalPoint">61 <span>/ 100</span></p>
+        </div>
 
-    </html>
+        <div class="visualDiv">
+            <div class="visual">
+                <img src="./img/iconoir_eye-empty.svg">
+                <p>Visual</p>
+            </div>
+            <p class="visualPoint">73 <span>/ 100</span></p>
+        </div>
+    </div>
+
+    <div class="button">
+        <button>continue</button>
+    </div>
+
+
+
+
+</body>
+
+
+</html>
