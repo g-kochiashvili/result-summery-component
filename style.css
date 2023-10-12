@@ -10,7 +10,7 @@ body {
 .resultComponents {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* display: flex; */
     width: 100%;
@@ -68,7 +68,7 @@ body {
     font-size: 18px;
     font-family: 'Hanken Grotesk', sans-serif;
     /* font-weight: 700; */
-    margin: 24px 140px;
+    margin: 24px 0px;
 }
 
 .Great {
@@ -95,9 +95,6 @@ body {
     height: 56px;
     display: flex;
     align-items: center;
-}
-
-.Summary p {
     color: var(--Dark-Navy, #303B59);
     font-family: Hanken Grotesk;
     font-weight: 700;
@@ -225,9 +222,87 @@ button {
 .button {
     display: flex;
     justify-content: center;
-    margin-top: 24px;
+    margin-top: 8px;
+    margin-bottom: 30px;
 }
 
 button:hover {
     background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+}
+
+
+@media only screen and (min-width:1140px) {
+    body {
+        background: var(--Very-Light-blue, #ECF2FF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--White, #FFF);
+        box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+        border-radius: 32px;
+    }
+
+    .resultComponents,
+    .test {
+        height: 512px;
+        border-radius: 32px;
+
+    }
+
+    .resultComponents {
+        width: 368px;
+
+    }
+
+    .test {
+        width: 368px;
+        padding: 38px 40px 46px 40px;
+        font-size: 18px;
+    }
+
+    .Summary,
+    .reactionDiv,
+    .memoryDiv,
+    .verbalDiv,
+    .visualDiv,
+    .button {
+        width: 288px;
+        height: 56px;
+        gap: 81px;
+    }
+
+    .Summary {
+        font-size: 24px;
+    }
+
+    .button {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    .newDiv{
+        margin-top: 0px;
+    }
+    .yourResult{
+        width: 125px;
+        font-size: 24px;
+        margin: 38px 128px 35px 119px;
+    }
+    .pointResult img, .point{
+        width: 200px;
+        height: 200px;
+    }
+    .Great{
+        font-size: 32px;
+        margin: 28px 148px 14px 140px;
+    }
+    .text{
+        width: 260px;
+        font-size: 18px;
+    }
 }
